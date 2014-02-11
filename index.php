@@ -25,7 +25,7 @@
     <body>
 		<div class="container">
             <br>
-            <center><h2 class="muted">Minecraft Authentication Session Login Simulator</h2><h3>Source: https://github.com/stuntguy3000/MinecraftAuth</h3></center>
+            <center><h2 class="muted">Minecraft Authentication Session Login Simulator</h2><h5>Source: <a href="https://github.com/stuntguy3000/MinecraftAuth">https://github.com/stuntguy3000/MinecraftAuth</a></h3></center>
             <hr>
             <pre>[stuntguy3000] Chester do you like my auth sim? http://auth.stuntguy3000.me/
 [Chester] Hmm seems pretty decent
