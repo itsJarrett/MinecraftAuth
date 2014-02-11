@@ -5,7 +5,7 @@
         <title>MinecraftAuth (Minecraft v1.7.4) Session Login Test</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="A way to test the Mojang auth system.">
-        <meta name="author" content="">
+        <meta name="author" content="stuntguy3000">
         
         <style>
         .circular {
