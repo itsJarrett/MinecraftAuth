@@ -75,7 +75,7 @@
                 <div class="control-group">
                     <div class="controls">
                         <div class="btn-group">
-                            <input type="submit" id="loginButton" class="btn btn-primary" value="Login to Minecraft">
+                            <input type="submit" id="loginButton" class="btn btn-primary" value="Login">
                         </div>
                         
                     </div>
@@ -104,7 +104,7 @@
                     $('#responce').fadeOut(function() {
                         $.post("post.php", $("#loginForm").serialize(), function(data){
                             $('#responce').html(data);
-                            $('#loginButton').val('Login to Minecraft');
+                            $('#loginButton').val('Login');
                             $('#loginButton').removeClass('disabled');
                             $('#responce').fadeIn();
                         });
