@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <title>MinecraftAuth (Minecraft v1.7.4) Session Login Test</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="A way to test the Mojang auth system.">
-        <meta name="author" content="">
+        <meta name="description" content="A simple way to simulate the Mojang Authentication system.">
+        <meta name="author" content="stuntguy3000">
         
         <style>
         .circular {
@@ -25,7 +25,7 @@
     <body>
 		<div class="container">
             <br>
-            <center><h2 class="muted">Minecraft Auth (Minecraft v1.7.4) Session Login Simulator</h2></center>
+            <center><h2 class="muted">Minecraft Authentication Session Login Simulator</h2><h5>Source: <a href="https://github.com/stuntguy3000/MinecraftAuth">https://github.com/stuntguy3000/MinecraftAuth</a></h3></center>
             <hr>
             <pre>[stuntguy3000] Chester do you like my auth sim? http://auth.stuntguy3000.me/
 [Chester] Hmm seems pretty decent
@@ -75,7 +75,7 @@
                 <div class="control-group">
                     <div class="controls">
                         <div class="btn-group">
-                            <input type="submit" id="loginButton" class="btn btn-primary" value="Login to Minecraft">
+                            <input type="submit" id="loginButton" class="btn btn-primary" value="Login">
                         </div>
                         
                     </div>
@@ -104,7 +104,7 @@
                     $('#responce').fadeOut(function() {
                         $.post("post.php", $("#loginForm").serialize(), function(data){
                             $('#responce').html(data);
-                            $('#loginButton').val('Login to Minecraft');
+                            $('#loginButton').val('Login');
                             $('#loginButton').removeClass('disabled');
                             $('#responce').fadeIn();
                         });
