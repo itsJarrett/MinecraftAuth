@@ -9,23 +9,34 @@
         
         <style>
         .circular {
-			border-radius: 5px;
-			-webkit-border-radius: 5px;
-			-moz-border-radius: 5px;
-			box-shadow: 0 0 5px rgba(0, 0, 0, .8);
-			-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
-			-moz-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
-		}
-		</style>
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+            -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+            -moz-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
+        }
+        </style>
         
         <link href="http://stuntguy3000.me/resources/css/bootstrap.css" rel="stylesheet" media="screen">
-		
-	</head>
+        
+    </head>
     
     <body>
-		<div class="container">
+        <div class="container">
             <br>
             <center><h2 class="muted">Minecraft Authentication Session Login Simulator</h2><h5>Source: <a href="https://github.com/stuntguy3000/MinecraftAuth">https://github.com/stuntguy3000/MinecraftAuth</a></h3></center>
+            <hr>
+            <br>
+            <?php
+       function getStatus($ip, $port){
+       $socket = @fsockopen($ip, $port, $errorNo, $errorStr, 3);
+       if(!$socket) return "<center><a class=\"btn btn-default btn-danger btn-lg active\">Login Servers Offline</a></center>";
+         else return "<center><a class=\"btn btn-default btn-success btn-lg active\">Login Servers Online</a></center>";
+            }
+            echo getStatus("login.minecraft.net", "80");
+            ?>
+            <br>
             <hr>
             <pre>[stuntguy3000] Chester do you like my auth sim? http://auth.stuntguy3000.me/
 [Chester] Hmm seems pretty decent
@@ -44,7 +55,7 @@
             <div id="responce"></div>
             <form class="form-horizontal" id="loginForm">
                 <div class="control-group">
-                    <label class="control-label">Minecraft Username</label>
+                    <label class="control-label">Minecraft Username / Migrated Email</label>
                     <div class="controls">
                         <input type="text" id="username" name="username" placeholder="Username" required>
                     </div>
@@ -81,7 +92,7 @@
                     </div>
                 </div>
             </form>
-		</div>
+        </div>
         
         <script src="//code.jquery.com/jquery-latest.js"></script>
         <script src="http://stuntguy3000.me/resources/js/bootstrap.js"></script>
