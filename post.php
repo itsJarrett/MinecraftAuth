@@ -17,14 +17,14 @@ if ($_POST['debug'] == true)
     
 if ($data['accessToken'] != null)    {
     echo '<div class="alert alert-success fade in"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Success!';
-    echo '<br><strong>Username:</strong> '.$data['selectedProfile']['name'].'';
+    echo '<br><strong>Username:</strong> '.$data['selectedProfile']['name'].' <img src="https://minotar.net/avatar/'.$data['selectedProfile']['name'].'/15">';
     echo '<br><strong>Access Token:</strong> '.$data['accessToken'].'';
     echo '<br><strong>User Token:</strong> '.$data['selectedProfile']['id'].'';
     echo '<br><strong>Client Token:</strong> '.$data['clientToken'].'</div>';
 } else {
     echo '<div class="alert alert-error fade in"> <strong>Error getting access token!</strong><button type="button" class="close" data-dismiss="alert">&times;</button>';
     echo '<br><strong>Exception Type: </strong>' . $data['error'];
-    echo '<br><strong>ErrorMessage: </strong>' . $data['errorMessage'];
+    echo '<br><strong>Error Message: </strong>' . $data['errorMessage'];
     echo '</div>';
 } 
 ?>

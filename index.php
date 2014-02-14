@@ -44,10 +44,10 @@
                 <strong>We respect privacy.</strong> We <strong>do <u>not</u></strong> save <strong>any</strong> information that you enter below. This form simply POST's the data to the official <strong>Mojang Authentication servers</strong>, through <strong>Ajax</strong>.
                 <br><br><i>Also..</i><br><br>
                 <p>This code example/demonstration which is designed to test how the Mojang Auth system works. Think of this as a simulation of the launcher.<br>
-                <br> <strong>- Do not</strong> give out any of the information you receive while using this system. 
+                <br><div class="alert alert-danger fade inr"><strong>- Do not</strong> give out any of the information you receive while using this system. 
                 <strong>Especially</strong> the Token Key. If you release your Token key then it is possible for anyone to login (as you) using that key, 
                 as this system is designed to bypass the login section of the new Minecraft launcher.
-                <br><br> - This system is experimental and is <strong>not</strong> intended for actual use.
+                </div><br><br> - This system is experimental and is <strong>not</strong> intended for actual use.
                 This is designed for developers to mess around.
                 <br><br><strong>You should understand that this system is an experiment, and can be used in dark, scary and pure evil ways.</strong>
                 <br></p></div><br>
