@@ -18,14 +18,14 @@
         }
         </style>
         
-        <link href="//stuntguy3000.me/resources/css/bootstrap.css" rel="stylesheet" media="screen">
+        <link href="http://stuntguy3000.me/resources/css/bootstrap.css" rel="stylesheet" media="screen">
         
     </head>
     
     <body>
         <div class="container">
             <br>
-            <center><h2 class="muted">Minecraft Authentication Session Login Simulator</h2><h5>Source: <a href="//github.com/stuntguy3000/MinecraftAuth">https://github.com/stuntguy3000/MinecraftAuth</a></h3></center>
+            <center><h2 class="muted">Minecraft Authentication Session Login Simulator</h2><h5>Source: <a href="https://github.com/stuntguy3000/MinecraftAuth">https://github.com/stuntguy3000/MinecraftAuth</a></h3></center>
             <hr>
             <br>
             <?php
@@ -38,9 +38,9 @@
             ?>
             <br>
             <hr>
-            <pre>[stuntguy3000] Chester do you like my auth sim? https://auth.stuntguy3000.me/
+            <pre>[stuntguy3000] Chester do you like my auth sim? http://auth.stuntguy3000.me/
 [Chester] Hmm seems pretty decent
-[stuntguy3000] YES APPROVAL</pre><div class="alert alert-danger fade in">
+[stuntguy3000] YES APPROVAL</pre><div class="alert alert-info fade in">
                 <strong>We respect privacy.</strong> We <strong>do <u>not</u></strong> save <strong>any</strong> information that you enter below. This form simply POST's the data to the official <strong>Mojang Authentication servers</strong>, through <strong>Ajax</strong>.
                 <br><br><i>Also..</i><br><br>
                 <p>This code example/demonstration which is designed to test how the Mojang Auth system works. Think of this as a simulation of the launcher.<br>
@@ -95,7 +95,7 @@
         </div>
         
         <script src="//code.jquery.com/jquery-latest.js"></script>
-        <script src="//stuntguy3000.me/resources/js/bootstrap.js"></script>
+        <script src="http://stuntguy3000.me/resources/js/bootstrap.js"></script>
         
         <script>
             $(document).ready(function(){
