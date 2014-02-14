@@ -47,7 +47,7 @@
                 <br><div class="alert alert-danger"><strong>- Do not</strong> give out any of the information you receive while using this system. 
                 <strong>Especially</strong> the Token Key. If you release your Token key then it is possible for anyone to login (as you) using that key, 
                 as this system is designed to bypass the login section of the new Minecraft launcher.
-                </div><br><br> - This system is experimental and is <strong>not</strong> intended for actual use.
+                </div><br> - This system is experimental and is <strong>not</strong> intended for actual use.
                 This is designed for developers to mess around.
                 <br><br><strong>You should understand that this system is an experiment, and can be used in dark, scary and pure evil ways.</strong>
                 <br></p></div><br>
