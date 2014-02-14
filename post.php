@@ -17,8 +17,8 @@ if ($_POST['debug'] == true)
     
 if ($data['accessToken'] != null)    {
     echo '<div class="alert alert-success fade in"><button type="button" class="close" data-dismiss="alert">&times;</button><strong>Success!';
-    echo '<br>Username:</strong> '.$data['username'].'';
-    echo '<br>Access Token:</strong> '.$data['accessToken'].'';
+    echo '<br><strong>Username:</strong> '.$data['selectedProfile']['name'].'';
+    echo '<br><strong>Access Token:</strong> '.$data['accessToken'].'';
     echo '<br><strong>User Token:</strong> '.$data['selectedProfile']['id'].'';
     echo '<br><strong>Client Token:</strong> '.$data['clientToken'].'</div>';
 } else {
